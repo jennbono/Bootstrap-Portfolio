@@ -3,72 +3,98 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Portfolio | Bono</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="https://jennbono.github.io/Responsive-Portfolio/" id="logo">Jenn Bono</a>
-      <nav>
-        <a href="https://jennbono.github.io/Responsive-Portfolio/">About</a>
-        <a href="https://jennbono.github.io/Responsive-Portfolio/portfolio">Portfolio</a>
-        <a href="https://jennbono.github.io/Responsive-Portfolio/contact">Contact</a>
-      </nav>
+<nav id="masthead" class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a id="logo" class="navbar-brand" href="#">Jenn Bono</a>
     </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/hangman1.png" alt="hangman">
-
-        <h3>Hangman</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/rpg-game1.png" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/trivia-game1.png" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/rutgers-info-widget1.png" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/rock-paper-scissors1.png" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-
-        <a href="https://github.com/jennbono"><img src="assets/images/if_github.png" class="social" alt="GitHub" /></a>
-        <a href="https://www.linkedin.com/in/jennifer-bono-38a916b4/"><img src="assets/images/if_linkedin.png" class="social" alt="LinkedIn" /></a>
-        <a href="https://stackoverflow.com/users/8462931/jennifer-bono?tab=profile"><img src="assets/images/if_stackoverflow.png" class="social" alt="Stack Overflow" /></a>
-      </div>
-    </section>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="#">About</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
   </div>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+
+      <div class="page-header">
+        <h1>Portfolio</h1>
+      </div>
+      
+      <!-- First Row -->
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="assets/images/hangman1.png" class="work" alt="Hangman">
+          </div>
+
+          <div class="col-sm-6">
+            <img src="assets/images/rpg-game1.png" class="work" alt="RPG Game"> 
+          </div>
+        </div>
+
+        <!-- Second Row -->
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="assets/images/trivia-game1.png" class="work" alt="Trivia Game">
+          </div>
+
+          <div class="col-sm-6">
+            <img src="assets/images/rutgers-info-widget1.png" class="work" alt="Rutgers Info Widget">
+          </div>
+        </div>
+
+        <!-- Third Row --> 
+        <div class="row">
+          <div class="col-sm-6">
+            <img src="assets/images/rock-paper-scissors1.png" class="work" alt="Rock Paper Scissors">
+          </div>
+        </div> 
+
+        
+        <!-- Connect with me -->
+                  <div class="col-md-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">Connect with Me</div>
+              <div class="panel-body social-icons">
+                <a href="https://github.com/jennbono"><img src="assets/images/if_github.png" class="social" alt="GitHub" /></a>
+                <a href="https://www.linkedin.com/in/jennifer-bono-38a916b4/"><img src="assets/images/if_linkedin.png" class="social" alt="LinkedIn" /></a>
+                <a href="https://stackoverflow.com/users/8462931/jennifer-bono?tab=profile"><img src="assets/images/if_stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+
+
 
   <footer>
     <div class="container">
       Copyright &copy; 2017 Jenn Bono
     </div>
   </footer>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
 </body>
 
 </html>

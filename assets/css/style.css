@@ -206,6 +206,11 @@ h3,
 
 /* contact page */
 
+.btn-default {
+  background-color: #4aaaa5;
+  color: white;
+}
+
 #contact-form ul {
   margin-bottom: 20px;
 }
