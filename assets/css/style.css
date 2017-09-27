@@ -159,6 +159,9 @@ h3,
   border: 1px solid #ddd;
 }
 
+.paragraphs {
+  float: left;
+}
 
 /* portfolio page */
 
@@ -197,6 +200,7 @@ h3,
 .auth-image {
   width: 200px;
   height: auto;
+  float: left;
 }
 
 /* contact page */
