@@ -90,6 +90,9 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+.active {
+  background-color: #4aaaa5;
+}
 /* footer */
 
 
@@ -138,6 +141,7 @@ h3,
   height: 62px;
   margin-top: 8px;
   margin-right: 5px;
+  margin-bottom: 8px;
 }
 
 .social:last-child {

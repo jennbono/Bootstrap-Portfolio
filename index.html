@@ -17,16 +17,23 @@
 
 
 <!-- Nav Bar -->
- <nav id="masthead" class="navbar navbar-default">
+<nav class="navbar navbar-inverse" id="masthead">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a id="logo" class="navbar-brand" href="https://jennbono.github.io/Bootstrap-Portfolio">Jenn Bono</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" id="logo" href="https://jennbono.github.io/Bootstrap-Portfolio">Jenn Bono</a>
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="https://jennbono.github.io/Bootstrap-Portfolio">About</a></li>
-      <li><a href="https://jennbono.github.io/Bootstrap-Portfolio/portfolio">Portfolio</a></li>
-      <li><a href="https://jennbono.github.io/Bootstrap-Portfolio/contact">Contact</a></li>
-    </ul>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="https://jennbono.github.io/Bootstrap-Portfolio">About</a></li>
+        <li><a href="https://jennbono.github.io/Bootstrap-Portfolio/portfolio">Portfolio</a></li>
+        <li><a href="https://jennbono.github.io/Bootstrap-Portfolio/contact">Contact</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
 
@@ -67,18 +74,20 @@
   
 
         <!-- Connect with me -->
-          <div class="col-md-4">
-            <div class="panel panel-default">
+        <div class="col-md-4">
+          <div class="panel panel-default">
+            <div class="text-center">
               <div class="panel-heading">Connect with Me</div>
-              <div class="panel-body social-icons">
-                <a href="https://github.com/jennbono"><img src="assets/images/if_github.png" class="social" alt="GitHub" /></a>
-                <a href="https://www.linkedin.com/in/jennifer-bono-38a916b4/"><img src="assets/images/if_linkedin.png" class="social" alt="LinkedIn" /></a>
-                <a href="https://stackoverflow.com/users/8462931/jennifer-bono?tab=profile"><img src="assets/images/if_stackoverflow.png" class="social" alt="Stack Overflow" /></a>
+              <div class="panel-body>
+                <a href="https://github.com/jennbono" target="_blank" style="display: inline-block;"><img src="assets/images/if_github.png" class="social" alt="GitHub"/></a>
+                <a href="https://www.linkedin.com/in/jennifer-bono-38a916b4/" target="_blank" style="display: inline-block;"><img src="assets/images/if_linkedin.png" class="social" alt="LinkedIn"/></a>
+                <a href="https://stackoverflow.com/users/8462931/jennifer-bono?tab=profile" target="_blank" style="display: inline-block;"><img src="assets/images/if_stackoverflow.png" class="social" alt="Stack Overflow"/></a>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </div>    
+     </div>
 
 <!-- Footer -->
   <footer>
