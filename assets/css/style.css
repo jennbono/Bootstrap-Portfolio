@@ -94,6 +94,12 @@ nav a:first-child {
 .active {
   background-color: #4aaaa5;
 }
+
+.navbar-toggle {
+  background-color: #4aaaa5;
+}
+
+
 /* footer */
 
 
@@ -116,7 +122,10 @@ footer {
 
 .panel-heading {
   text-align: center;
-  font-color: #4aaaa5;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #4aaaa5;
 }
 
 .sidebar {
