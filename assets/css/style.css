@@ -177,6 +177,10 @@ h3,
 
 /* portfolio page */
 
+.portfolio {
+  margin: 30px;
+}
+
 .work {
   position: relative;
   float: left;
